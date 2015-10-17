@@ -17,7 +17,7 @@ $ npm install
 var PtBible = require("bible-portuguese");
 
 // Get verse
-PtBible.getVerse("John 3:16", function (err, data) {
+PtBible.getVerse("Mateus 1:1", function (err, data) {
     console.log(err || data);
 });
 
