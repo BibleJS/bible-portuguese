@@ -1,0 +1,24 @@
+{
+  "name": "bible-portuguese",
+  "version": "0.1.0",
+  "description": "Portuguese Bible module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BibleJS/bible-portuguese.git"
+  },
+  "keywords": [
+    "bible",
+    "portuguese",
+    "node"
+  ],
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BibleJS/bible-portuguese/issues"
+  },
+  "homepage": "https://github.com/BibleJS/bible-portuguese#readme"
+}
