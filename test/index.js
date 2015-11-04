@@ -1,12 +1,12 @@
 // Dependencies
 var test = require("prova"),
-    EnBible = require("../index");
+    PtBible = require("../index");
 
 var validVerse = {
-    reference: "Matthew 1:1",
+    reference: "Mateus 1:1",
     verses: [{
         book_id: "MAT",
-        book_name: "Matthew",
+        book_name: "Mateus",
         chapter: 1,
         verse: 1,
         text: "Livro da genealogia de Jesus Cristo, filho de Davi, filho de Abraão.   "
@@ -21,7 +21,7 @@ test("Return proper verse", function(t) {
     t.plan(2);
 
     // Get verse
-    EnBible.getVerse("Mateus 1:1", function(err, data) {
+    PtBible.getVerse("Mateus 1:1", function(err, data) {
         t.error(err);
         t.same(data, validVerse);
     });
