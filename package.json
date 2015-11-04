@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/BibleJS/bible-portuguese/issues"
   },
-  "homepage": "https://github.com/BibleJS/bible-portuguese#readme"
+  "homepage": "https://github.com/BibleJS/bible-portuguese#readme",
+  "devDependencies": {
+    "prova": "^2.1.2"
+  }
 }
