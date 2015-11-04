@@ -15,6 +15,9 @@
     "portuguese",
     "node"
   ],
+  "dependencies": {
+    "request": "^2.65.0"
+  },
   "author": "Raphael Amorim",
   "license": "MIT",
   "bugs": {
