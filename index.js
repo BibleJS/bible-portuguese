@@ -2,11 +2,12 @@
 var Request = require("request");
 
 // Constants
-const PROVIDER = 'http://bible-api.com/',
-    TRANSLATION = '?translation=almeida';
+const PROVIDER = 'http://bible-api.com/';
+
+const TRANSLATION = '?translation=almeida';
 
 // Constructor
-var BiblePortuguese = module.exports = {};
+const BiblePortuguese = module.exports = {};
 
 /**
  * getVerse
@@ -27,7 +28,7 @@ BiblePortuguese.getVerse = function (reference, callback) {
     Request.get({
         json: true
       , url: PROVIDER + reference + TRANSLATION
-    }, function (err, response, body) {
+    }, (err, response, body) => {
 
         if (err || response.statusCode !== 200) {
             return callback (err || response.message);
