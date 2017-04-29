@@ -1,8 +1,8 @@
 # Bible Portuguese
-Portuguese Bible module
+Módulo `BibleJS` Português
 
-## Installation
-Run the following commands to download and install the application:
+## Instalação
+Execute os seguintes comandos para baixar e instalar o aplicativo:
 
 ```sh
 $ git clone git@github.com:BibleJS/bible-portuguese.git bible-portuguese
@@ -10,30 +10,26 @@ $ cd bible-portuguese
 $ npm install
 ```
 
-## Example
+## Exemplo
 
 ```js
-// Dependencies
+// Dependências
 var PtBible = require("bible-portuguese");
 
-// Get verse
+// Pegar verso
 PtBible.getVerse("Mateus 1:1", function (err, data) {
     console.log(err || data);
 });
 
 ```
 
-## How to contribute
+## Como contribuir
 
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Write code and tests, and run `npm test` to confirm everything works.
-3. Commit your changes to that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message (if solving an issue).
+1. Crie uma Issue no repositório, usando o rastreador de bugs, descrevendo a contribuição que você gostaria de fazer. Isso nos ajudará a começar com o pé direito.
+2. Forque o projeto em sua conta e crie uma nova branch: `nome-da-branch`.
+3. Escreva o código e os testes, execute `npm test` para confirmar que tudo funciona.
+3. Coloque suas alterações na branch que você criou.
+4. Abra um Pull Request e faça referência a questão inicial na mensagem da solicitação (da resolução de um problema).
 
-## License
-See the [LICENSE](./LICENSE) file.
+## Licença
+Veja a [LICENÇA](./LICENSE).
