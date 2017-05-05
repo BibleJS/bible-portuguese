@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/BibleJS/bible-portuguese#readme",
   "devDependencies": {
-    "prova": "^2.1.2"
+    "prova": "^3.0.0"
   }
 }

@@ -16,7 +16,7 @@ $ npm install
 // Dependências
 var PtBible = require("bible-portuguese");
 
-// Get verse
+// Pegar verso
 PtBible.getVerse("Mateus 1:1", function (err, data) {
     console.log(err || data);
 });
